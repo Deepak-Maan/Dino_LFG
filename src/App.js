@@ -1,4 +1,6 @@
 import "./App.css";
+import About from "./components/About";
+import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/Nav";
@@ -11,7 +13,9 @@ function App() {
         <NavBar />
         <Hero />
       </div>
+      <About />
       <Roadmap />
+      <Faq />
       <Footer />
     </div>
   );
