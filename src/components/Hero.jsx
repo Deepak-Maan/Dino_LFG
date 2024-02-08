@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className='container mx-auto xl:max-w-[1157px] xl:px-3 px-6 lg:pt-[28px] pt-[20px]'>
                     <div className='flex flex-row flex-wrap lg:mt-[83px] mt-[45px] justify-between '>
                         <div className='lg:w-5/12 w-full flex lg:items-end lg:justify-center'>
-                            <img src={Aeroplane} alt="Aeroplane" className='w-full lg:max-w-[393px] max-w-[200px] helo-header' />
+                            <img src={Aeroplane} alt="Aeroplane" className='w-full utility_croco1 lg:max-w-[393px] max-w-[200px] helo-header' />
                         </div>
                         <div data-aos="fade-down-left" className='lg:w-7/12 w-full flex flex-col items-center justify-center lg:mt-0 mt-7 pb-[18px]'>
                             <h2 className='lg:text-[175.636px] sm:text-[125px] text-[100px] font-dino font-normal text-center leading-[82%] text-[#FBA11D] drop-shadow-[2px_6px_0px_#000]'>
