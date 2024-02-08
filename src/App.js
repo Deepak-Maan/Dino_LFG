@@ -10,6 +10,8 @@ import Roadmap from "./components/Roadmap";
 import Tokenomics from "./components/Tokenomics";
 import Utility from "./components/Utilities";
 import Preloader from "./components/Preloader";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const [data, setdata] = useState(true);
@@ -18,6 +20,9 @@ function App() {
     setTimeout(() => {
       setdata(false);
     }, 3000);
+  }, []);
+  useEffect(() => {
+    AOS.init({ once: true });
   }, []);
   return (
     <div>

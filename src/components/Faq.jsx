@@ -22,7 +22,7 @@ function Faq() {
         <div id="faq" className="relative">
             <div className="max-w-[1140px] mx-auto px-3  lg:pt-[310px] md:pt-[200px] sm:pt-[150px] pt-[100px]">
                 <h2 className='sm:text-[64px] text-[40px] leading-[132%] text-center font-normal font-chewy text-white lg:mb-[61px] mb-[35px]'>FAQs</h2>
-                <div className=" mx-auto relative max-w-[800px] px-2 ">
+                <div data-aos="zoom-in" className=" mx-auto relative max-w-[800px] px-2 ">
                     <Accordion className={`border-[#C5C5C5] border mb-4 rounded-full p-3 sm:pt-[30px] sm:pb-[27px] sm:ps-[26px] ${open === 1 ? 'rounded-[26px] sm:rounded-[45px] ' : 'rounded-full'}`} open={open === 1} icon={<Icon id={1} open={open} />}                >
                         <AccordionHeader onClick={() => handleOpen(1)} className="font-balsamiq text-[11px] sm:text-[16px] md:text-[20px] text-start font-bold text-white w-full justify-between" >Maecenas laoreet, sapien vel cursus ultricies?</AccordionHeader>
                         <AccordionBody className="font-balsamiq text-[14px] md:text-[16px] font-medium text-white max-w-[600px] pt-3 ">Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? Maecenas laoreet, sapien vel cursus ultricies? </AccordionBody>
