@@ -13,13 +13,13 @@ const Hero = () => {
                             <img src={Aeroplane} alt="Aeroplane" className='w-full lg:max-w-[393px] max-w-[200px] helo-header' />
                         </div>
                         <div data-aos="fade-down-left" className='lg:w-7/12 w-full flex flex-col items-center justify-center lg:mt-0 mt-7 pb-[18px]'>
-                            <h2 className='lg:text-[175.636px] sm:text-[125px] text-[100px] font-dino font-normal text-center leading-[82%] text-[#FBA11D] drop-shadow-[0px_6px_0px_#000]'>
+                            <h2 className='lg:text-[175.636px] sm:text-[125px] text-[100px] font-dino font-normal text-center leading-[82%] text-[#FBA11D] drop-shadow-[2px_6px_0px_#000]'>
                                 D
                                 <span className='text-[#23AAAC]'>I</span>
                                 <span className='text-[#D45B07]'>N</span>
                                 <span className='text-[#8EC627]'>O</span>
                             </h2>
-                            <h2 className='lg:text-[175.636px] sm:text-[125px] text-[100px] font-dino font-normal text-center leading-[82%] text-[#8EC627] drop-shadow-[0px_6px_0px_#000]'>
+                            <h2 className='lg:text-[175.636px] sm:text-[125px] text-[100px] font-dino font-normal text-center leading-[82%] text-[#8EC627] drop-shadow-[2px_6px_0px_#000]'>
                                 L
                                 <span className='text-[#FCCA2B]'>F</span>
                                 <span className='text-[#8F78D2]'>G</span>
