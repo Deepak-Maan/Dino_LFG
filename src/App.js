@@ -22,7 +22,7 @@ function App() {
     }, 3000);
   }, []);
   useEffect(() => {
-    AOS.init({ once: true });
+    AOS.init({ once: true, duration: 1500 });
   }, []);
   return (
     <div>
