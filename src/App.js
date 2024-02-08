@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import NavBar from "./components/Nav";
 import Roadmap from "./components/Roadmap";
+import Tokenomics from "./components/Tokenomics";
+import Utility from "./components/Utilities";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Hero />
       </div>
       <About />
+      <Tokenomics />
+      <Utility />
       <Roadmap />
       <Faq />
       <Footer />
