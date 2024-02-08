@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About";
+import Backtotop from "./components/BackToTop";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -21,6 +22,7 @@ function App() {
       <Roadmap />
       <Faq />
       <Footer />
+      <Backtotop />
     </div>
   );
 }
