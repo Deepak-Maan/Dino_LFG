@@ -16,7 +16,7 @@ const Footer = () => {
                         <span className='text-[#8F78D2]'>F</span>
                         <span className='text-[#8EC627]'>G</span>
                     </h2>
-                    <p className='text-[14px] font-normal text-center text-white max-w-[376px] leading-[122%]'>Sed tempus pretium est, vestibulum dapibus mauris viverra id. Curabitur feugiat porta lorem,  </p>
+                    <p className='text-[14px] font-normal font-balsamiq text-center text-white max-w-[376px] leading-[122%]'>Sed tempus pretium est, vestibulum dapibus mauris viverra id. Curabitur feugiat porta lorem,  </p>
                     <div className='flex items-center justify-center gap-2'>
                         <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://twitter.com/i/flow/login" target='_blank'><FooterTwitter /></a>
                         <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://discord.com/" target='_blank'><FooterDiscord /></a>
