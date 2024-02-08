@@ -16,7 +16,7 @@ function Backtotop() {
     }
     return (
         <>
-            <button id="Top" className="cursor-pointer hidden fixed z-10 bottom-2 right-2" onClick={up}>
+            <button id="Top" className="cursor-pointer hidden fixed z-20 bottom-2 right-2" onClick={up}>
                 <img className="w-[50px] h-[50px] animate-bounce" src={backtotop} alt="back to top icon" />
             </button>
         </>
