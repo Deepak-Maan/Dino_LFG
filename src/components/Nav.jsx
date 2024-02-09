@@ -40,9 +40,9 @@ const NavBar = () => {
                     </ul>
                     <div className='flex items-center gap-[13px]'>
                         <div className='lg:flex py-1 hidden gap-2 items-center'>
-                            <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]' href="https://twitter.com/i/flow/login" target='_blank'><Twitter /></a>
-                            <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]' href="https://discord.com/" target='_blank'><Discord /></a>
-                            <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]' href="https://www.instagram.com/" target='_blank'><Instagram /></a>
+                            <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]' href="https://twitter.com/i/flow/login" target='_blank' rel='noreferrer' ><Twitter /></a>
+                            <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]' href="https://discord.com/" target='_blank' rel='noreferrer'><Discord /></a>
+                            <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(30,31,31,0.36)]' href="https://www.instagram.com/" target='_blank' rel='noreferrer'><Instagram /></a>
                         </div>
                         <button className='lg:block hidden bg-BgBtnJoin bg-Bgsize group bg-BgPositionCenter bg-no-repeat'>
                             <p className='pt-[11px] pb-[19.57px] px-[36px] text-[18px] group-hover:text-white transition-all duration-300 ease-linear font-normal text-black font-chewy leading-[131%]'>Join Now</p>
