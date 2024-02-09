@@ -92,16 +92,6 @@ body {
   }
 }
 
-@keyframes straight {
-  0% {
-    transform: translateX(100px);
-  }
-
-  100% {
-    transform: translateX(-700px);
-
-  }
-}
 
 @keyframes rider1 {
   0% {
@@ -113,16 +103,7 @@ body {
   }
 }
 
-@keyframes straight1 {
-  0% {
-    transform: translateX(-100px);
-  }
 
-  100% {
-    transform: translateX(700px);
-
-  }
-}
 
 @media (min-width:1024px) {
   @keyframes rider {
