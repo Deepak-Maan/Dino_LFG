@@ -27,8 +27,8 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <img src={CycleDino} alt="CycleDino" className='sm:max-w-[132px] walking-img2 max-w-[94px] w-full absolute bottom-[18%] sm:right-[38%] right-[58%]' />
-                <img src={SmallCycle} alt="SmallCycle" className='xl:max-w-[211px] walking-img sm:max-w-[180px] max-w-[108px] w-full absolute xl:bottom-[10%] md:bottom-[9%] sm:bottom-[8%] bottom-[9%] sm:right-[9%] right-[4%]' />
+                <img src={CycleDino} alt="CycleDino" className='sm:max-w-[132px] utility_croco1 max-w-[94px] w-full absolute bottom-[18%] sm:right-[38%] right-[58%]' />
+                <img src={SmallCycle} alt="SmallCycle" className='xl:max-w-[211px] sm:max-w-[180px] max-w-[108px] w-full absolute xl:bottom-[10%] md:bottom-[9%] sm:bottom-[8%] bottom-[9%] sm:right-[9%] right-[4%]' />
             </div>
         </div>
     )
