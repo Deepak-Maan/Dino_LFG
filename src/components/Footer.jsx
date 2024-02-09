@@ -18,9 +18,9 @@ const Footer = () => {
                     </h2>
                     <p className='text-[14px] font-normal font-balsamiq text-center text-white max-w-[376px] leading-[122%]'>Sed tempus pretium est, vestibulum dapibus mauris viverra id. Curabitur feugiat porta lorem,  </p>
                     <div className='flex items-center justify-center gap-2'>
-                        <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://twitter.com/i/flow/login" target='_blank'><FooterTwitter /></a>
-                        <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://discord.com/" target='_blank'><FooterDiscord /></a>
-                        <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://www.instagram.com/" target='_blank'><FooterInstagram /></a>
+                        <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://twitter.com/i/flow/login" target='_blank' rel='noreferrer'><FooterTwitter /></a>
+                        <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://discord.com/" target='_blank' rel='noreferrer'><FooterDiscord /></a>
+                        <a className=' hover:-translate-y-1 duration-300 rounded-full hover:shadow-[0px_0px_12px_4px_rgba(223,232,229,0.36)]' href="https://www.instagram.com/" target='_blank' rel='noreferrer'><FooterInstagram /></a>
                     </div>
                 </div>
                 <img src={FooterForest} alt="FooterForest" className='absolute 2xl:bottom-[-5%] bottom-0 left-0 right-0 w-full' />
