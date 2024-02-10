@@ -142,15 +142,18 @@ body {
 
   @keyframes straight1 {
     0% {
-      transform: translateY(-35px);
+      margin-top: -35px;
+      transform: rotate(0deg);
     }
 
     50% {
-      transform: translateY(-45px);
+      margin-top: -60px;
+      transform: rotate(15deg);
     }
 
     100% {
-      transform: translateY(-35px);
+      margin-top: -35px;
+      transform: rotate(0deg);
     }
   }
 }
