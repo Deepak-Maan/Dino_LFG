@@ -6,7 +6,7 @@ import SmallCycle from '../assets/images/footcyclecroco.webp';
 const Hero = () => {
     return (
         <div>
-            <div className=' relative min-h-screen overflow-hidden'>
+            <div className=' relative min-h-[700px] xl:min-h-screen overflow-hidden'>
                 <div className='container mx-auto xl:max-w-[1157px] xl:px-3 px-6 lg:pt-[28px] pt-[20px]'>
                     <div className='flex flex-row flex-wrap lg:mt-[83px] mt-[45px] justify-between '>
                         <div className='lg:w-5/12 w-full flex lg:items-end lg:justify-center'>
