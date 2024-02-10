@@ -12,6 +12,15 @@ module.exports = {
         Bgsize: "100% 100%",
       },
     },
+    animation: {
+      flip: "plane 12s infinite linear",
+    },
+    keyframes: {
+      plane: {
+        "0%": { transform: "translateX(0%)" },
+        "100%": { transform: "translateX(-500%)" },
+      },
+    },
   },
   plugins: [],
 };
