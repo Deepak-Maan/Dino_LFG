@@ -25,13 +25,13 @@ function App() {
     AOS.init({ once: true, duration: 1500 });
   }, []);
   return (
-    <div>
+    <>
       {data ? (
-        <div>
+        <>
           <Preloader />
-        </div>
+        </>
       ) : (
-        <div>
+        <>
           <div className="bg-header xl:bg-Bgsize bg-cover bg-no-repeat">
             <NavBar />
             <Hero />
@@ -43,9 +43,9 @@ function App() {
           <Faq />
           <Footer />
           <Backtotop />
-        </div>
+        </>
       )}
-    </div>
+    </>
   );
 }
 
