@@ -8,8 +8,6 @@ function Arrow({ id, open }) {
                 <circle cx="18" cy="18" r="18" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 36 36)" fill="white" />
                 <path d="M12.2857 14L18 19.625L23.7143 14L26 15.125L18 23L10 15.125L12.2857 14Z" fill="#0A4740" />
             </svg>
-
-
         </div>
     );
 }

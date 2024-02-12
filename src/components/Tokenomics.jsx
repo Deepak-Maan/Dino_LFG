@@ -19,8 +19,7 @@ const Tokenomics = () => {
                     <div className="flex items-center justify-center lg:flex-row flex-col">
                         <div className="relative xl:max-w-[589.84px] md:max-w-[430px] sm:max-w-[300px] max-w-[270px]">
                             <img data-aos="zoom-in" src={BabyDino} alt="BabyDino" className="absolute md:bottom-[59%] bottom-[56%] lg:left-[28%] md:left-[26%] left-[28%] xl:max-w-[252.57px] md:max-w-[188px] max-w-[128px] w-full" />
-                            <img data-aos="zoom-in"
-                                src={BottomDino} alt="BottomDino" className="w-full" />
+                            <img data-aos="zoom-in" src={BottomDino} alt="BottomDino" className="w-full" />
                             <img src={TokenomicsCartoon} alt="TokenomicsCartoon" className="absolute w-full mini-dino lg:top-[-29%] md:top-[-20%] md:left-[39%] top-[-42%] left-[37%] xl:max-w-[133.72px] lg:max-w-[100px] max-w-[80px]" />
                             <div data-aos="zoom-in" className="lg:flex hidden absolute lg:top-[12%] top-[41%] xl:left-[-45%] lg:left-[-61%] left-[-40%] lg:gap-[26.11px] gap-[15px]">
                                 <div className="flex flex-col gap-[5px]">
