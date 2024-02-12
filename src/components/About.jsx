@@ -9,8 +9,8 @@ const About = () => {
             <div id='About' className='bg-[#09655A] sm:pt-[76px] pt-[8px] sm:pb-[17px] pb-[30px] mt-[-2px] relative'>
                 <div className='container mx-auto xl:max-w-[1157px] px-3 xl:px-6 relative z-20'>
                     <div className='flex items-center justify-center sm:flex-row flex-col sm:gap-[22px] gap-[5px]'>
-                        <h3 data-aos="zoom-in-up" className='font-chewy sm:text-[64px] text-[40px] font-normal text-white leading-[132%]'>About</h3>
-                        <h2 data-aos="zoom-in-up" className='font-dino sm:text-[69.669px] text-[50px] mt-1 font-normal text-[#FBA11D] leading-[95%] drop-shadow-[0px_1.337px_0px_#fff]'>
+                        <h2 data-aos="zoom-in-up" className='font-chewy sm:text-[64px] text-[40px] font-normal text-white leading-[132%]'>About</h2>
+                        <h3 data-aos="zoom-in-up" className='font-dino sm:text-[69.669px] text-[50px] mt-1 font-normal text-[#FBA11D] leading-[95%] drop-shadow-[0px_1.337px_0px_#fff]'>
                             D
                             <span className='text-[#23AAAC]'>i</span>
                             <span className='text-[#D45B07]'>n</span>
@@ -18,7 +18,7 @@ const About = () => {
                             <span className='text-[#FCCA2B]'>L</span>
                             <span className='text-[#8F78D2]'>F</span>
                             <span className='text-[#8EC627]'>G</span>
-                        </h2>
+                        </h3>
                     </div>
                     <div data-aos="zoom-in-up" className='flex flex-col items-center justify-center md:px-0 sm:px-7 px-3 lg:px-14'>
                         <p className='sm:text-[24px] text-[17px] font-normal font-balsamiq text-white text-center sm:mt-[42px] mt-[25px] leading-[121%]'>$DINO is a meme coin with very strong utility.</p>
