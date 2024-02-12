@@ -1,5 +1,5 @@
 import React from 'react';
-import heloImg from '../assets/images/helicopterroadmap.webp';
+import AeroplaneImg from '../assets/images/helicopterroadmap.webp';
 import TimelineDashed from '../assets/images/timelinedhased.webp';
 import TimeChris from '../assets/images/timelinechristmas.webp';
 import Timedinechris from '../assets/images/cristmascrocotime.webp';
@@ -20,7 +20,7 @@ const Roadmap = () => {
                                     <li className='lg:text-[20px] text-[15px] font-normal font-balsamiq text-white leading-[121%]'>Building the community.</li>
                                     <li className='lg:text-[20px] text-[15px] font-normal font-balsamiq text-white leading-[121%]'>Marketing Phase 1.</li>
                                 </ol>
-                                <img src={heloImg} alt="heloImg" className='md:hidden block absolute sm:top-[-17%] left-[-86px] sm:left-[-28%] top-[-12%] max-w-[80px] sm:max-w-[120px]' />
+                                <img src={AeroplaneImg} alt="AeroplaneImg" className='md:hidden block absolute sm:top-[-17%] left-[-86px] sm:left-[-28%] top-[-6%] max-w-[80px] sm:max-w-[120px]' />
                             </div>
                             <div data-aos="zoom-in" className='flex sm:flex-row flex-col sm:items-center lg:justify-end md:justify-center lg:pl-0 md:pl-[100px] lg:gap-[30px] gap-[15px] lg:pr-[100px] md:pt-[245px] pt-[30px] relative z-10'>
                                 <h3 className='lg:text-[200px] sm:text-[120px] text-[70px] leading-[100%] sm:leading-[145%] font-chewy font-normal text-[#8EC627] drop-shadow-[0px_18.413px_18.413px_rgba(0,_0,_0,_0.26)]'>02</h3>
