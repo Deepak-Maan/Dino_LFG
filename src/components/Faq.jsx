@@ -14,7 +14,7 @@ function Arrow({ id, open }) {
     );
 }
 function Faq() {
-    const [open, setOpen] = React.useState(1);
+    const [open, setOpen] = React.useState();
 
     const AccordionOpen = (value) => setOpen(open === value ? 0 : value);
 
