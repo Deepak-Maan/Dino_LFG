@@ -4,7 +4,7 @@ import CycleDino from '../assets/images/bycyclecroco.webp';
 import SmallCycle from '../assets/images/footcyclecroco.webp';
 const Hero = () => {
     return (
-        <header className=" bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] 2xl:min-h-[70vh] relative overflow-hidden -top-[100px]">
+        <header className=" bg-cover bg-center w-full min-h-[730px] sm:min-h-[890px] 2xl:min-h-[100vh] relative overflow-hidden -top-[100px]">
             <div className='grid grid-cols-1 sm:grid-cols-2 container mx-auto max-w-[1040px] z-[3] mt-[140px] sm:mt-[178px] relative gap-5'>
                 <div className='flex items-center md:items-end max-lg:justify-center'>
                     <img className='w-full max-w-[250px] md:max-w-[394px] max-h-[170px] md:max-h-[240px] utility_croco1' src={Aeroplane} alt="aeroplane" />
