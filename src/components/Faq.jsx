@@ -4,7 +4,7 @@ import Faqlayer1 from '../assets/images/faqlayer1.webp';
 function Arrow({ id, open }) {
     return (
         <div className="relative ">
-            <svg className={`${id === open ? "rotate-180" : "rotate-0"}  sm:mr-12   transition-transform`} width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className={`${id === open ? "rotate-180" : "rotate-0"}  sm:mr-6   transition-transform`} width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="18" cy="18" r="18" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 36 36)" fill="white" />
                 <path d="M12.2857 14L18 19.625L23.7143 14L26 15.125L18 23L10 15.125L12.2857 14Z" fill="#0A4740" />
             </svg>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Aeroplane from '../assets/images/aeroplane.webp';
+import Aeroplane from '../assets/images/aeroplane2.png';
 import CycleDino from '../assets/images/bycyclecroco.webp';
 import SmallCycle from '../assets/images/footcyclecroco.webp';
 const Hero = () => {
