@@ -10,7 +10,7 @@ const Utility = () => {
         <div className='relative overflow-x-clip '>
             <img src={utilityLayer} alt="utilityLayer" className='-translate-y-1 w-full' />
             <div className='container mx-auto xl:max-w-[1038px] xl:px-3 px-6 relative z-10'>
-                <h2 className='font-chewy sm:text-[64px] text-[35px] font-normal text-white text-center leading-[132%]'>Utility and Usecase</h2>
+                <h2 className='font-chewy sm:text-[64px] text-[40px] font-normal text-white text-center leading-[132%]'>Utility and Usecase</h2>
                 <div className='relative z-10 xl:mt-[158px] max-lg:overflow-hidden lg:mt-[100px] md:mt-[70px] mt-[40px] rounded-[20px] border border-solid lg:h-[266px] border-white bg-[#09655A] lg:py-[62px] pt-[40px] lg:pl-[39px] lg:pr-[26px] px-[20px] flex lg:justify-between lg:flex-row flex-col'>
                     <div data-aos="fade-right">
                         <p className='max-w-[681px] xl:text-[32px] lg:text-[29px] sm:text-[32px] text-[23px] font-normal text-white leading-[119%] font-balsamiq'>We are going to work hard in otder to add <span className='text-[#8EC627]'>$</span>

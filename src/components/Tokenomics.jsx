@@ -15,7 +15,7 @@ const Tokenomics = () => {
                 <img src={TreeLayer} alt="TreeLayer" className=" absolute w-full left-0 right-0 bottom-0" />
                 <img src={AboutLayor} alt="AboutLayor" className="absolute top-[-2px] left-0 right-0 w-full" />
                 <div className="container relative z-[1] xl:max-w-[1147px] xl:px-3 px-6 mx-auto lg:pt-[250px] sm:pt-[120px] pt-[80px] xl:pb-[540px] lg:pb-[450px] sm:pb-[200px] pb-[175px]">
-                    <h2 data-aos="fade-down" className="text-white font-normal font-chewy sm:text-[64px] text-[35px] leading-[131%] text-center lg:mb-[166px] mb-[100px]">Tokenomics</h2>
+                    <h2 data-aos="fade-down" className="text-white font-normal font-chewy sm:text-[64px] text-[40px] leading-[131%] text-center lg:mb-[166px] mb-[100px]">Tokenomics</h2>
                     <div className="flex items-center justify-center lg:flex-row flex-col">
                         <div className="relative xl:max-w-[589.84px] md:max-w-[430px] sm:max-w-[300px] max-w-[270px]">
                             <img data-aos="zoom-in" src={BabyDino} alt="BabyDino" className="absolute md:bottom-[59%] bottom-[56%] lg:left-[28%] md:left-[26%] left-[28%] xl:max-w-[252.57px] md:max-w-[188px] max-w-[128px] w-full" />
